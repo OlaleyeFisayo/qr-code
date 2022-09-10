@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+    :root { 
+      --white:  hsl(0, 0%, 100%);
+      --light-gray: hsl(212, 45%, 89%);
+      --grayish-blue: hsl(220, 15%, 55%);
+      --dark-blue: hsl(218, 44%, 20%);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: content-box;
+    }
+
+    body {
+      background: var(--light-gray);
+      font-family: 'Outfit', sans-serif;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .box{
+      overflow: hidden;
+      max-width: 300px;
+      height: auto;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: var(--white);
+      border-radius: 20px;
+      padding: 15px;
+      box-shadow:  5px 5px 15px rgba(0, 0, 0, 0.12);
+      z-index: 1;
+    }
+
+    .img-box {
+      width: 300px;
+    }
+
+    .header,
+    .context {
+      text-align: center;
+    }
+
+    .header {
+      padding: 20px 0;
+      font-weight: 700;
+    }
+
+    .context {
+      color: var(--grayish-blue);
+      font-size: 15px;
+      padding: 0 30px 20px;
+      font-weight: 400;
+    }
+
+    .attribution { 
+      width: 100%;
+      font-size: 11px;
+      display: block; 
+      position: fixed;
+      bottom: 0%;
+      text-align: center;
+      z-index: -1;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%); 
+    }
+    
+  </style>
+
+</head>
+
+<body>
+
+  <div class="box">
+    <div class="img-box">
+      <img src="images\image-qr-code.png" alt="qr-code">
+    </div>
+    <h2 class="header">Improve your front-end skills by building projects</h2>
+    <p class="context">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/OlaleyeFisayo" target="_blank">Festus-Olaleye Fisayo</a>.
+  </div>
+
+</body>
+
+</html>
