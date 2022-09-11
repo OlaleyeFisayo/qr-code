@@ -18,7 +18,7 @@
 
 ### Links
 
-- Solution URL: [Github repository](https://github.com/OlaleyeFisayo)
+- Solution URL: [Github repository](https://github.com/OlaleyeFisayo/qr-code)
 - Live Site URL: [Github pages](https://olaleyefisayo.github.io/qr-code/)
 
 ## My process
